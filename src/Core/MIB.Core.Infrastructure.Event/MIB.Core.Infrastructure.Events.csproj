@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MIB.Core.Domain\MIB.Core.Domain.csproj" />
+    <ProjectReference Include="..\MIB.Core.Infrastructure.Event.Dapr\MIB.Core.Infrastructure.Events.Dapr.csproj" />
+    <ProjectReference Include="..\MIB.Core.Infrastructure.Event.MediatR\MIB.Core.Infrastructure.Events.MediatR.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+﻿apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pubsubamq
+spec:
+  type: pubsub.mqtt
+  version: v1
+  metadata:
+    - name: consumerID
+      value: "{uuid}"
+    - name: cleanSession
+      value: "true"
+    - name: url
+      value: "tcp://admin:admin@localhost:61616"
+    - name: qos
+      value: 2
+    - name: retain
+      value: "false"

@@ -1,0 +1,8 @@
+﻿apiVersion: dapr.io/v1alpha1
+kind: Subscription
+metadata:
+  name: OrderDeletedEventHandler
+spec:
+  topic: topic1
+  route: /queue/pubsubamq/OrderDeletedEventHandler
+  pubsubname: pubsub
