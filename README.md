@@ -6,7 +6,7 @@
 ## 📘 Introduzione
 
 Questo repository contiene il materiale della sessione **"ManInDotnet – Missione Clean Architecture"**, presentata al **DelFest Pescara 2025**.  
-All’interno troverai codice di esempio, configurazioni e risorse utili per comprendere come applicare i principi della **Clean Architecture** in un progetto **.NET 8**, con il supporto di **Dapr** e **Podman** per la gestione dei microservizi e della containerizzazione.
+All’interno troverai codice di esempio, configurazioni e risorse utili per comprendere come applicare i principi della **Clean Architecture** in un progetto **.NET 8**, con il supporto di **Dapr** e **Aspire** per la gestione dei microservizi e della containerizzazione.
 
 L’obiettivo è mostrare un approccio pratico e modulare per la costruzione di applicazioni scalabili, manutenibili e indipendenti dalle infrastrutture sottostanti.
 
@@ -73,4 +73,5 @@ Distribuito sotto licenza **MIT**.
 Consulta il file `LICENSE` per i dettagli.
 
 ---
+
 
