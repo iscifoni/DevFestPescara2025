@@ -1,5 +1,5 @@
 # 🧠 ManInDotnet – Missione Clean Architecture  
-*Sessione presentata al DelFest Pescara 2025*
+*Sessione presentata al DevFest Pescara 2025*
 
 ---
 
@@ -73,3 +73,4 @@ Distribuito sotto licenza **MIT**.
 Consulta il file `LICENSE` per i dettagli.
 
 ---
+
